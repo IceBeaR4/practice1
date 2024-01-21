@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d5e1ef;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.flex-container {
+  border-radius: 20px;
+  text-align: center;
+  background-color: white;
+  width: 250px;
+  height: 400px;
+  padding: 10px;
+  box-shadow: -1px 0px 41px -7px rgba(0, 0, 0, 0.75);
+}
+
+img {
+  width: 200px;
+  border-radius: 20px;
+}
+h1 {
+  padding: 20px;
+  font-size: 17px;
+}
+
+p {
+  font-size: 14px;
+  color: rgb(103, 100, 100);
+}
